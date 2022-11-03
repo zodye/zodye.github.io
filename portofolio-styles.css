@@ -48,7 +48,7 @@ button:hover{
     justify-content: space-around;
 }
 
-#navbar .color-changer{
+#navbar .navbar-container .color-changer{
     width: 10vh;
     height: 100%;
     border: 0;
@@ -117,7 +117,7 @@ a{
 }
 
 .project-tile a{
-    display: block;
+    /* display: block; */
     font-size: 0;
     margin: 30px 0 10px;
     color: inherit;
