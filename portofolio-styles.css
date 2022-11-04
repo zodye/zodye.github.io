@@ -117,7 +117,7 @@ a{
 }
 
 .project-tile a{
-    /* display: block; */
+    display: block;
     font-size: 0;
     margin: 30px 0 10px;
     color: inherit;
@@ -178,7 +178,8 @@ a{
     align-items: center;
     padding: 0 8%;
 }
-@media (min-width:700px) and (max-width:1000px){
+
+@media (max-width:1000px){
     .project-tile a{
         width: 40%;
     }
@@ -190,5 +191,19 @@ a{
     }
     .project-tile a{
         width: 75%;
+    }
+}
+@media (max-width:600px){
+    body{
+        font-size: 1rem;
+    }
+    #navbar{
+        height: 7vh;
+    }
+    #navbar a{
+        padding: 0 20px;
+    }
+    #navbar .navbar-container .color-changer{
+        width: 7vh;
     }
 }
