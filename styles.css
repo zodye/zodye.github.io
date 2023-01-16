@@ -91,7 +91,7 @@ a{
 }
 
 .word-yellow{
-    color: var(--yellow)
+    color: var(--yellow);
 }
 
 #projects{
